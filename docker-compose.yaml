@@ -23,7 +23,7 @@ services:
 
   db:
     image: mariadb
-#     restart: always
+##     restart: always
     environment:
       MARIADB_ROOT_PASSWORD: ${MARIADB_ROOT_PASSWORD}
       MARIADB_DATABASE: ${MARIADB_DATABASE}
